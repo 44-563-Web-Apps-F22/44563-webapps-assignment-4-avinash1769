@@ -1,36 +1,103 @@
-body{
-    background-color:rgb(232, 202, 221);
+h4{
+    font-size:15px;
 }
 p:hover {
-    background-color:rgba(210, 215, 223, 0.674);
-}
-    h5
-    {
-        color:#333;}
-h2:hover{
-    color:rgb(31, 184, 226);
-}
-  
-h2{
-    color:rgb(137, 79, 32);
-    text-shadow: 3px 3px 5px;
-}
+    background-color:rgba(107, 182, 182, 0.477);
+  }
 h4{
-    color:rgb(14, 2, 17);}
-
+    color:rgb(125, 22, 22);
+}
 h3{
-    color:rgb(105, 90, 160);}
+    color:rgb(102, 102, 17);
+}
 h3{
-    font-size:20px;}
+    font-size:20px;
+}
 
 p{
-    color:rgb(124, 39, 70);}
+    color:gold;
+}
 span{
-    color:rgb(128, 0, 0);}
+    color:green;
+}
 span:hover{
-    background-color:rgb(236, 193, 137);}
+    background-color:cornflowerblue;
+}
 h3{
-    font-style: italic;}
+    font-style:inherit;
+}
 
 h4{
-    font-style: inherit;}
+    font-style: italic;
+}
+.chorus{
+font-size:20px;
+color:rgb(65, 37, 52);
+}
+.Songs{
+    font-size:20;
+    color:rgb(109, 147, 160);
+}
+table{
+    border-style:double;
+}
+th, td {
+    border: 1px solid hotpink;
+  }
+th {
+   color:rgb(128, 0, 53);
+      }
+      td{
+        color:rgb(98, 44, 55);
+      }
+       tr:nth-child(even) {
+        background-color:blue;
+      }
+      td {
+        text-align: center;
+      }
+   
+  th,td {
+    width:200px;
+    padding:0px 4px 4px 4px;
+    margin: -28px 0px -10px 100px;
+    background: lightblue;
+    border-top: 2px solid blueviolet;
+    border-right: 4px dashed brown;
+    border-bottom: 8px double rgb(44, 44, 41);
+    border-left: 16px inset purple;
+ }
+ h2:hover{
+    color:rgb(83, 17, 145);
+}
+
+h2{
+
+  text-shadow: 2px 3px 5px rgb(79, 49, 19);
+}
+.cool{
+    font-size:20px;
+    color:burlywood;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:brown;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover{
+    background-color:dimgray
+  }
